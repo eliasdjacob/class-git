@@ -11,7 +11,7 @@ console.log(juntos);
 juntos = 78 + 17 + nombre;  // p[rimero suma los números y después concatena
 console.log(juntos);
 
-nombre +=apellido; // Tercera forma de oncatenar, ahora usando el operador simplificado
+nombre +=apellido; // Tercera forma de concatenar, ahora usando el operador simplificado
 console.log(nombre);
 
 // Hoy ya no se usa var, se utiliza let y const
