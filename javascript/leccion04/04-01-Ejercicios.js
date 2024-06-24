@@ -51,5 +51,24 @@ console.log(fechaNacimiento);
 //fechaNacimiento = 2003; 
 //console.log(fechaNacimiento); //solo se ejecuta el console anterior
 
+// Ejercicio 2: Determinar la hora del día y saludar según la hora del día.
+function formatHour(h) {
+    const hour = new Date(h).toLocaleTimeString("es-ES", {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+    });
+    return hour;
+  }
+  const hora = formatHour(new Date());
 
+  function determinarHoraDelDia(hora) {
+    if (hora >= "6" && hora <= "11") {
+        console.log(Buenos, días, son, las, $, { hora }.);
+    } else if (hora >= "12" && hora <= "20") {
+        console.log(Buenas, tardes, son, las, $, { hora }.);
+    } else if (hora >= "20" && hora <= "12") {
+        console.log(Buenas, noches, son, las, $, { hora }.);
+    }
+}
 
