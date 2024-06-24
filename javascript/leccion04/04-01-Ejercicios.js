@@ -71,4 +71,3 @@ function formatHour(h) {
         console.log(Buenas, noches, son, las, $, { hora }.);
     }
 }
-
