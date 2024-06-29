@@ -207,7 +207,8 @@ En resumen, pip es una herramienta esencial para cualquier desarrollador de Pyth
 
 #
 
-HOY VAMOS A HACER ACTIVIDAD EN PYTHON EN UN DÍA COMO PROGRAMADORES:
+### **HOY VAMOS A HACER ACTIVIDAD EN PYTHON EN UN DÍA COMO PROGRAMADORES: **### 
+
 1- Abrir la terminal de Git Bash o terminal en Linux, debe ser como administrador en Window. 2- Creamos una carpeta o directorio:
 mkdir python-final
 3- Entramos en ella:
